@@ -1,0 +1,25 @@
+{
+	"modules": {
+		"contentLeftPanel": {
+			"content": {
+				"index": "List"
+			}
+		},
+		"footerPanel": {
+			"options": {
+				"downloadEnabled": false,
+				"fullscreenEnabled": false
+			}
+		},
+	    "embedDialogue": {	      
+	      "content": {	     
+	        "instructions": "To embed this work in your own website, copy and paste the code below."     
+	      }
+	    },
+		"moreInfoRightPanel": {
+			"content": {
+				"manifestHeader": "About the work"
+			}
+		}
+	}
+}
