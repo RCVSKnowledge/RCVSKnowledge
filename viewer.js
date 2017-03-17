@@ -40,7 +40,7 @@ $(function() {
         	manifestUri = Utils.Urls.GetQuerystringParameter('manifest');
         }
 
-        if (manifestUri && manifestUri.startsWith("http://waylon.rcvsvethistory.org/")) {
+        if (manifestUri && manifestUri.lastIndexOf("http://waylon.rcvsvethistory.org/", 0) === 0) {
         
             $('.uv').attr('data-uri', manifestUri);
         }
