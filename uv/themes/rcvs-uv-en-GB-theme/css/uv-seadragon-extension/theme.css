@@ -1983,7 +1983,21 @@ input[type=range]:focus::-ms-fill-upper {
 }
 #app .headerPanel {
   background: url('../../img/rcvs-logo.png') #000 no-repeat 8px 8px;
+  background-size: auto 25px;
 }
+/*#app .headerPanel {
+  background-color: #000;
+}
+#app .headerPanel:before {
+    content: "RCVS Knowledge";
+    color: #fff;
+    display: block;
+    float: left;
+    clear: right;
+    line-height: 40px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}*/
 #app .headerPanel a.imageBtn {
   height: 30px;
   width: 30px;
