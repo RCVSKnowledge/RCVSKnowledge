@@ -1983,6 +1983,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 #app .headerPanel {
   background: url('../../img/rcvs-logo.png') #000 no-repeat 8px 8px;
+  background-size: auto 25px;
 }
 #app .headerPanel a.imageBtn {
   height: 30px;
