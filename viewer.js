@@ -40,15 +40,12 @@ $(function() {
         	manifestUri = Utils.Urls.GetQuerystringParameter('manifest');
         }
 
-        if (manifestUri && 
-	     ( 
-		manifestUri.lastIndexOf("http://waylon.rcvsvethistory.org/", 0) === 0) ||
-	        manifestUri.lastIndexOf("https://iiif.rcvsk.org/", 0) === 0)
-	     )
-	)
+        if (manifestUri &&  (  manifestUri.lastIndexOf("http://waylon.rcvsvethistory.org/", 0) === 0 ||
+	                       manifestUri.lastIndexOf("https://iiif.rcvsk.org/", 0) === 0  ) )
 	{
           	$('.uv').attr('data-uri', manifestUri);
-        }
+        
+        }	
     }	
 	
 	function init() {
