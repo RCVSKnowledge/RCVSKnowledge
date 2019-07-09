@@ -1,7 +1,7 @@
 {
 	"options": {
 		"openTemplate": "http://uv.rcvsvethistory.org/uv.html?manifest={0}",
-		"theme": "rcvs-uv-en-GB-theme"
+		"theme": "uv-en-GB-theme"
 	},
 	"modules": {
 		"contentLeftPanel": {
